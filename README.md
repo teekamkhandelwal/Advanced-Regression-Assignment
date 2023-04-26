@@ -10,7 +10,6 @@
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
 
 
 ## General Information
@@ -49,29 +48,47 @@ How can you make sure that a model is robust and generalisable? What are the imp
 
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+We getting below mentioned optimal value for lambda -
 
+Ridge - 3.0
+
+Lasso - 0.0001
+
+r2 value we got is:
+
+
+Ridge - Train = 0.924302 , Test = 0.896
+
+Lasso - Train = 0.90598, Test =0.906866
+
+
+The Mean Squared error value we got is:
+
+Ridge test - 0.046756
+
+Lasso test - 0.046535
+
+
+We can clearly observe that the Mean Squared Error of Lasso is slightly lower than that of Ridge.
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- numpy - Version: 1.21.5
+- pandas - Version: 1.4.4
+- matplotlib - Version: 3.5.2
+- seaborn - Version: 0.11.2
+- sklearn - version 0.24.2
+- statsmodels - Version: 0.13.2
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
-
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@teekamkhandelwal] - feel free to contact me!
+
+
+**Note:-**
+* **Data used for this project persent in data folder.**
+* **Advanced Regression Subjective Questions (Assignment Part-2) answer file  as a pdf is also persent in Data folder.**
+* **python programming file is persent in Python folder** 
 
 
