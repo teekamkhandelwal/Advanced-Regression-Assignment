@@ -1,47 +1,33 @@
-## Overview
-This project provides a solution for parsing, indexing, and querying information from an HDFC Policy PDF document using LlamaIndex. The system allows for efficient retrieval of policy details based on user queries.
+## Project Objective 
+Build a project in the insurance domain, similar to the project you saw in the ‘Retrieval Augmented Generation’ session. The goal of the project will be to build a robust generative search system capable of effectively and accurately answering questions from various policy documents. You may use LangChain or LlamaIndex to build the generative search application.
 
-## Project Goals
-- Parse the HDFC Policy PDF to extract relevant information.
-- Index the extracted data for efficient querying.
-- Handle user queries and provide relevant information from the policy document.
+## Document
+HDFCvarious Insuracne policy documetns sotred in single folder
 
-## Prerequisites to Run the Semantic Spotter
+## Install Libraries
+ Execute all cells to install the required libraries and code dependencies.
 
-1. **Install Required Libraries and Dependencies**:  
-   Run all the cells that install the necessary libraries and code dependencies.
+## Steps to Run the Semantic Spotter:
 
-## Steps to Run the Semantic Spotter
+Mount Google Drive: Access and set the path to stored files, then read the PDFs.
 
-1. **Mount Google Drive**:  
-   Mount Google Drive and change the path to where the files are stored. Execute the next block to read all the PDF files.
+Set API Keys: Configure the OPENAI_API_KEY.
 
-2. **Set API Keys**:  
-   Read the `OPENAI_API_KEY`.
+Create and Index Nodes: Generate nodes from documents and store them in a vector index.
 
-3. **Create Nodes**:  
-   Create nodes from the read documents and store them in a vector index.
+Query the Index: Develop and use query templates to retrieve indexed data.
 
-4. **Query the Index**:  
-   - Create templates and pass those templates to the index as a query engine.
-   - Start querying the indexed data.
+Extract Response and Feedback: Get response details (source, filename, page, text) and gather user feedback for improvements.
 
-5. **Extract Query Response Details**:  
-   Extract source node, filename, page number, and text from the response provided by the query engine.
+## Technology used-
+Python 3.10+
+LlamaIndex
+OpenAI
+pandas
 
-6. **Loop Through Multiple Questions**:  
-   Create a function to loop through multiple questions and process them.
-
-8. **Collect User Feedback**:  
-   Ask the user to provide feedback on their experience and satisfaction with the answer for future improvements.
-   
-## Technologies Used
-
-- Python 3.9+
-- LlamaIndex
-- OpenAI
-- pandas
+## Note: Add your OpenAI API key to the "open_api_key_11.txt" file and store the data in the defined folder or adjust the path as needed.
 
 ## Credits
+Teekam Chand Khandelwal
 
-Ayushi Pitchika, ACP Gen AI C10, UpGrad
+
